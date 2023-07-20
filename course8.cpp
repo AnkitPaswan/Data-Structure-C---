@@ -1,3 +1,6 @@
+
+// check whether the entered value is in upper case , lower case or numerical values.
+
 #include <iostream>
 using namespace std;
 int main()

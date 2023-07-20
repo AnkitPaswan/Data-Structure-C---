@@ -1,4 +1,4 @@
-// Check the given number is Positive or Negative.
+// Check the given number is Positive or Negative or 0.
 
 #include <iostream>
 using namespace std;
