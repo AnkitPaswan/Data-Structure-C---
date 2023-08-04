@@ -5,13 +5,22 @@ using namespace std;
 
 int factorial(int num)
 {
-    int fact = 1;
-    for (int i = 1; i <= num; i++)
+    // int fact = 1;
+    // for (int i = 1; i <= num; i++)
+    // {
+    //     fact = fact * i;
+    // }
+
+    // return fact;
+
+    // -----------using recusion-------------
+    //(Base case)
+    if (num == 0)
     {
-        fact = fact * i;
+        return 1;
     }
 
-    return fact;
+    return num * factorial(num - 1);
 }
 
 int main()
