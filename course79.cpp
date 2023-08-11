@@ -18,3 +18,24 @@ private:
         age = a;
         salary = s;
     }
+
+    void getData(){
+
+        // return this->name;
+
+        cout<<"Name: "<<name<<endl;
+        cout<<"Age: "<<age<<endl;
+        cout<<"Salary: "<<salary<<endl;
+    }
+
+
+};
+
+int main(){
+
+   encp emp;
+   emp.setData("Ankit", 25, 500000);
+   emp.getData();
+   
+   return 0;
+}
